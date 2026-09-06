@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Casa de Pedra - Serra Negra</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://picsum.photos/1200/400');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            color: #ffb703;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #dddddd;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: #ffb703;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        .card-content p {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #0a0a0a;
+            color: #666666;
+            margin-top: 40px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Guia Casa de Pedra</h1>
+        <p>Conheça as belezas e paisagens de Serra Negra</p>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Galeria do Lugar</h2>
+
+        <div class="galeria">
+            <div class="card">
+                <img src="https://picsum.photos/400/300?random=1" alt="Paisagem de Serra Negra">
+                <div class="card-content">
+                    <h3>Natureza Local</h3>
+                    <p>Trilhas e pontos turísticos cercados por montanhas e muito verde.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/400/300?random=2" alt="Estrutura de Pedra">
+                <div class="card-content">
+                    <h3>Construção Histórica</h3>
+                    <p>Detalhes em pedra que dão um charme único ao ambiente.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/400/300?random=3" alt="Vista Panorâmica">
+                <div class="card-content">
+                    <h3>Ponto de Vista</h3>
+                    <p>Um ótimo local para admirar o horizonte e tirar boas fotos.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Casa de Pedra - Serra Negra | Publicado via GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
