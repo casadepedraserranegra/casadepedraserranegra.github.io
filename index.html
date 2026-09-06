@@ -22,7 +22,7 @@
             background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('imagens/foto1.png');
             background-size: cover;
             background-position: center;
-            height: 250px;
+            height: 280px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -40,6 +40,23 @@
         header p {
             font-size: 1.1rem;
             color: #dddddd;
+            margin-bottom: 15px;
+        }
+
+        .btn-whats {
+            display: inline-block;
+            background-color: #25d366;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn-whats:hover {
+            background-color: #1da851;
         }
 
         .container {
@@ -103,6 +120,10 @@
     <header>
         <h1>Guia Casa de Pedra</h1>
         <p>Conheça as belezas e paisagens de Serra Negra</p>
+        <!-- Lembre de trocar o numero abaixo -->
+        <a href="https://wa.me/55199969397402?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20de%20Pedra!" class="btn-whats" target="_blank">
+            💬 Falar no WhatsApp
+        </a>
     </header>
 
     <main class="container">
